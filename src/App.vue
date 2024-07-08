@@ -21,8 +21,8 @@ export default {
 <template>
   
   <AppNav />
-  <AppContent />
-  <AppPurchase />
+  <AppListing />
+  <AppPay />
   <AppFooter />
   <AppSocial />
 

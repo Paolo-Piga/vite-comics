@@ -1,16 +1,17 @@
 <script >
-import AppNav from './components/AppNav.vue'
-import AppContent from './components/AppContent.vue'
-import AppPurchase from './components/AppPurchase.vue'
-import AppFooter from './components/AppFooter.vue'
-import AppSocial from './components/AppSocial.vue'
+// import AppNav from './components/AppNav.vue'
+import AppNav from `./components/AppNav.vue`;
+import AppListing from './components/AppListing.vue';
+import AppPay from './components/AppPay.vue';
+import AppFooter from './components/AppFooter.vue';
+import AppSocial from './components/AppSocial.vue';
 
 export default {
   name: 'App',
   components: {
     AppNav,
-    AppContent,
-    AppPurchase,
+    AppListing,
+    AppPay,
     AppFooter,
     AppSocial
   }
